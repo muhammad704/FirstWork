@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Figtree">
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+      @font-face{
+          font-family:"zia";
+          src:url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf')format("truetype");
+      }
+    .attribution { font-size: 11px; text-align: center;
+      position: absolute;
+      left: 50%;
+      top:600px}
+    .attribution a { color: hsl(228, 45%, 44%); }
+      body{
+          background-color:hsl(47, 88%, 63%);
+          width:1440px;
+          position: relative;
+          font-family:zia
+      }
+      .contain{
+          background-color:white;
+          width:350px;
+          height: 450px;
+          position: absolute;
+          top:100px;
+          left:46%;
+          border-radius: 10px;
+          box-shadow:10px 10px 0 black
+      }
+      .contain img {
+          width:330px;
+          height:200px;
+          border-radius: 10px;
+          position:absolute;
+          top:9px;
+          left:9px
+      }
+      .bottom{
+          position:absolute;
+          left:10px;
+          top:210px;
+          background-color:hsl(47, 88%, 63%);
+          padding:6px;
+          font-size:15px;
+          border-radius: 8px;
+          font-weight: 600, 800
+        }
+      .publish{
+          position:absolute;
+          left:10px;
+          top:240px;
+          font-size:18px
+      }
+      .title{
+          position:absolute;
+          left:10px;
+          top:280px;
+          width:350px;
+          font-size:20px;
+          font-weight: bold
+      }
+      .paragraph{
+          position: absolute;
+          left: 10px;
+          top:320px;
+          width:330px
+      }
+      .imgend{
+          position: absolute;
+          bottom: 50px
+      }
+      .imgend img{
+          width:32px;
+          height: 32px;
+          position:absolute;
+          bottom:30px;
+          left:10px }
+      .imgend span{
+          position:absolute;
+          top:15px;
+          left:50px;
+          width:100px;
+          font-weight: bold
+      }
+  </style>
+</head>
+<body>
+  <div class="contain">
+      <img src="assets/images/illustration-article.svg" >
+      <h2 class="bottom">Learning</h2>
+      <p class="publish">Published 21 Dec 2023</p>
+      <h1 class="title">HTML & CSS foundations</h1>
+      <p class="paragraph">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div class="imgend">
+       <img src="assets/images/image-avatar.webp">
+        <span>Greg Hooper</span>
+      </div>
+    
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/home">Muhammad704</a>.
+  </div>
+</body>
+</html>
